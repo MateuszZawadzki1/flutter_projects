@@ -1,16 +1,8 @@
-# first_app
+# Dice Roller App
 
-A new Flutter project.
+A simple Flutter application that simulates the rolling of a dice. The app displays a dice and changes the number of dots (pips) on the dice each time the user rolls it. This project is designed as a fun way to learn Flutter basics, such as state management, layouts, and animations.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Display a dice with random values between 1 and 6.
+- Simple UI with a button to roll the dice.
