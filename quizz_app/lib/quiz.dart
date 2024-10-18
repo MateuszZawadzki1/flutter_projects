@@ -25,11 +25,11 @@ class _QuizState extends State<Quiz> {
     return MaterialApp(
       home: Scaffold(
         body: Container(
-          decoration: BoxDecoration(
+          decoration: const BoxDecoration(
             gradient: LinearGradient(
               colors: [
-                const Color.fromARGB(255, 60, 9, 146),
-                const Color.fromARGB(255, 92, 51, 163)
+                Color.fromARGB(255, 60, 9, 146),
+                Color.fromARGB(255, 92, 51, 163)
               ],
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
@@ -37,7 +37,7 @@ class _QuizState extends State<Quiz> {
           ),
           child: activeScreen == 'start-screen'
               ? StartScreen(switchScreen)
-              : QuestionScreen(),
+              : const QuestionScreen(),
         ),
       ),
     );
