@@ -1,43 +1,79 @@
-# Miscellaneous
-*.class
+# Flutter/Dart general
+**/build/
+**/flutter_export_environment.sh
+**/flutter_export_environment.bat
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
 *.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
 
-# IntelliJ related
+# Flutter iOS/Android build files
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/App.framework
+android/.gradle/
+android/app/build/
+android/app/*.keystore
+android/local.properties
+
+# macOS generated files
+macos/Flutter/ephemeral/
+macos/Flutter/Flutter.podspec
+macos/Flutter/GeneratedPluginRegistrant.swift
+macos/Pods/
+macos/Runner.xcworkspace/
+.DS_Store
+
+# Windows generated files
+windows/Flutter/ephemeral/
+
+# VS Code settings
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+*.code-workspace
+
+# Xcode general
+*.xcuserdatad/
+*.xcscmblueprint
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+*.xcworkspace/
+*.lock
+
+# Files related to debugging/profiling
+*.hprof
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.so
+*.dylib
+
+# Obsolete / Temporary files
+*.tmp
+*.swp
+*.swm
+*.swn
+*.swo
+*.bak
+*.sav
+
+# User-specific files (optional)
 *.iml
 *.ipr
 *.iws
+
+# Generated Firebase files (if using Firebase)
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
+
+# JetBrains IDEs (IntelliJ, Android Studio) settings
 .idea/
+*.iml
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
